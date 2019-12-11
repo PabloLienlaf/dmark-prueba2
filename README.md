@@ -54,8 +54,8 @@
 
 
 ##Entrada 3: Optimizado de análisis SEO y legibilidad
-![](images/yoast-redacción-1.png)
-![](images/yoast-redacción-2.png)
+![](images/yoast-redaccion-1.png)
+![](images/yoast-redaccion-2.png)
 
 
 ## Integración de Sitemap en Google Search Console:
