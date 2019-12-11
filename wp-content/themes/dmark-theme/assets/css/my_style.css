@@ -1,0 +1,139 @@
+html, body{
+  box-sizing: border-box;
+}
+
+body {
+  padding-bottom: 400px;
+  font-family: 'Rubik', sans-serif;
+  min-height: 100vh;
+	position: relative;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	position: relative;
+  text-align: center;
+}
+
+a {
+  color: #e27659;
+}
+
+a:hover {
+  color: #e27659;
+}
+
+h2, h3, h4 {
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+img {
+  height: auto;
+}
+
+nav {
+	border-bottom: .15rem solid #e27659;
+}
+
+nav a {
+  color: #ffffff !important;
+}
+
+.navbar-brand svg {
+	width: 2rem;
+  fill : #e27659;
+}
+
+header {
+	min-height: 100vh;
+	background: url('../images/background.jpg') no-repeat center / cover;
+}
+
+header svg {
+	fill:  #ffffff;
+	width: 60%;
+	margin: 2rem 0;
+	padding-top: 10rem;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.text-orange, h3 {
+	color: #e27659;
+}
+
+a.text-orange:hover {
+	color: #e27659;
+}
+
+h3 {
+	color: #e27659;
+}
+
+.active {
+	color: #e27659 !important;
+}
+
+article h3 {
+	color: initial !important;
+}
+
+.btn-orange, .btn-outline-orange:hover {
+  color: #fff;
+  background-color: #e27659;
+  border-color: #e27659;
+}
+
+.btn-outline-orange, .btn-orange:hover {
+  color: #e27659;
+	background: transparent;
+  border-color: #e27659;
+}
+
+.project {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(226, 118, 89, .75);
+}
+
+.project:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+	header svg {
+		width: 40%;
+	}
+}
